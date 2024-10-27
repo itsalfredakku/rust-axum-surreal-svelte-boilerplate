@@ -1,0 +1,27 @@
+{
+    "name": "Rust and Node.js",
+    "image": "mcr.microsoft.com/devcontainers/rust:latest",
+    "postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
+    "postStartCommand": "bash .devcontainer/postStartCommand.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "esbenp.prettier-vscode",
+                "GitHub.copilot",
+                "ms-azuretools.vscode-docker",
+                "svelte.svelte-vscode",
+                "dustypomerleau.yarra-valley"
+            ]
+        }
+    },
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+        8000,
+        5173
+    ]
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "rustc --version",
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
