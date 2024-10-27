@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/itsalfredakku/rust-axum-surreal-boilerplate.git
+[submodule "web"]
+	path = web
+	url = https://github.com/itsalfredakku/svelte-boilerplate.git
