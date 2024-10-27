@@ -1,17 +1,18 @@
-# RSS Boilerplate
-Rust + SurrealDB + Svelte
-## api
+# SRAS Boilerplate
+Svelte + Rust + Axum + SurrealDB
+
+## Rust + Axum + SurrealDB (Backend) Boilerplate
 
 ```
-cd api/
+cd backend/
 cargo build
 cargo run
 ```
 
-## web
+## Svelte (Frontend) Boilerplate
 
 ```
-cd web/
+cd frontend/
 npm install
 npm run dev
 ```
