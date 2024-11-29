@@ -1,8 +1,8 @@
-# SRAS Boilerplate
-Svelte + Rust + Axum + SurrealDB
+# RASS Boilerplate
+Rust + Axum + SurrealDB + Svelte
 
 ### Description
-SRAS Boilerplate is a comprehensive starter template combining Svelte, Rust, Axum, and SurrealDB. This boilerplate makes it easy to set up a full-stack web application with a robust backend in Rust powered by Axum and SurrealDB, and a sleek frontend using Svelte.
+RASS Boilerplate is a comprehensive starter template combining Svelte, Rust, Axum, and SurrealDB. This boilerplate makes it easy to set up a full-stack web application with a robust backend in Rust powered by Axum and SurrealDB, and a sleek frontend using Svelte.
 
 ### Features
 - **Backend**: Rust with Axum framework and SurrealDB for the database.
